@@ -15,7 +15,7 @@ to provide additional image specific functionality.
 Installation is similar to a standard bundle.
 http://symfony.com/doc/current/cookbook/bundles/installation.html
 
-* Add bundle to composer.json: https://packagist.org/packages/symfonycontrib/filefield-bundle
+* Add bundle to composer.json: https://packagist.org/packages/symfonycontrib/imagefield-bundle
 * Add bundle to AppKernel.php:
 
 ```php
