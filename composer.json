@@ -1,0 +1,26 @@
+{
+    "name": "symfonycontrib/imagefield-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Image Form Field Bundle, extends FileFieldBundle",
+    "keywords": ["Symfony", "bundle", "form", "file", "upload", "image"],
+    "homepage": "http://symfonycontrib.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Doucette",
+            "email": "dragonwize@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": "~2.3.6",
+        "symfonycontrib/filefield-bundle": "~1.0.0@alpha"
+    },
+    "autoload": {
+        "psr-0": {
+            "SymfonyContrib\\Bundle\\ImageFieldBundle\\": ""
+        }
+    },
+    "target-dir": "SymfonyContrib/Bundle/ImageFieldBundle"
+}

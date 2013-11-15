@@ -1,0 +1,7 @@
+{% block filefield_preview_image %}
+{% spaceless %}
+    <div class="imagefield-preview" style="float: left; margin-right: 15px;">
+        <img src="{{ file.url|default('') }}" alt="image preview" style="height: 70px;">
+    </div>
+{% endspaceless %}
+{% endblock %}

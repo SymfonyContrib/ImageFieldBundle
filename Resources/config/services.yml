@@ -1,0 +1,9 @@
+parameters:
+    imagefield.form.type.class: SymfonyContrib\Bundle\ImageFieldBundle\Form\Type\ImageFieldType
+
+services:
+    imagefield.form.type:
+        class: %imagefield.form.type.class%
+        tags:
+            - name: form.type
+              alias: imagefield
