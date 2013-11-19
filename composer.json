@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.4",
         "symfony/symfony": "~2.3.6",
-        "symfonycontrib/filefield-bundle": "~1.0.0@alpha"
+        "symfonycontrib/filefield-bundle": "~1.0.0"
     },
     "autoload": {
         "psr-0": {
