@@ -15,12 +15,17 @@
     "require": {
         "php": ">=5.4",
         "symfony/symfony": "~2.3.6",
-        "symfonycontrib/filefield-bundle": "~1.0.0@dev"
+        "symfonycontrib/filefield-bundle": "~1.0.0"
     },
     "autoload": {
         "psr-0": {
             "SymfonyContrib\\Bundle\\ImageFieldBundle\\": ""
         }
     },
-    "target-dir": "SymfonyContrib/Bundle/ImageFieldBundle"
+    "target-dir": "SymfonyContrib/Bundle/ImageFieldBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
