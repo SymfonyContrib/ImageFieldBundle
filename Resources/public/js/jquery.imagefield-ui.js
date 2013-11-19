@@ -7,7 +7,7 @@ var imagefield = {
         data.context.each(function (index) {
             var file = files[index] || {error: 'Empty file upload result'};
             var $node = $(this);
-            $node.find('.imagefield-preview img').attr('src', file.url);
+            $node.find('.imagefield-preview img').attr('src', file.uri);
         });
     }
 };
