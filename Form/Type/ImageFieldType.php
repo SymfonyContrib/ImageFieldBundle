@@ -19,6 +19,7 @@ class ImageFieldType extends AbstractType
     {
         $resolver->setDefaults([
             'preview_type' => 'image',
+            'accept'       => 'image/*',
         ]);
     }
 
